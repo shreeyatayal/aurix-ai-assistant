@@ -1,39 +1,42 @@
-# AURIX - AI Assistant 🤖
+# 🤖 AURIX - AI Assistant
 
-AURIX is a Jarvis-like AI assistant built using Python.
-
-## Features
-
-- Voice and text input
-- Wake word detection (Aurix, RX, Alex, etc.)
-- System control (open apps, take screenshots)
-- Task automation (study mode, coding mode)
-- AI conversation using local LLM (Ollama)
-- Logging system (aurix.log)
-- Error handling and graceful recovery
-- Capability guard for safe execution
-
-## Technologies Used
-
-- Python
-- SpeechRecognition
-- pyttsx3
-- psutil
-- pyautogui
-- Ollama (LLM)
-
-## How to Run
-
-1. Install dependencies:
-pip install -r requirements.txt
-
-2. Run:
-python main.py
-
-## Project Goal
-
-To build a reliable, safe, and explainable AI assistant similar to Jarvis.
+AURIX is a Jarvis-like AI assistant built using Python with voice interaction, system control, and intelligent automation.
 
 ---
 
-Built by Shreeya 🚀
+## 🚀 Features
+
+- 🎤 Voice + Text Interaction  
+- 🧠 Smart Wake Word Detection (Aurix, RX, Alex, etc.)  
+- ⚙️ System Control (Open apps, take screenshots)  
+- 🔄 Task Automation (Study Mode, Coding Mode)  
+- 🤖 AI Conversation using Local LLM (Ollama)  
+- 📊 System Awareness (Battery, CPU usage)  
+- 🛡️ Capability Guard (Prevents unsafe actions)  
+- 📁 Logging System (aurix.log)  
+- ⚡ Graceful Error Handling  
+
+---
+
+## 🧱 Architecture
+
+Input → Wake Word → Intent Detection → Capability Guard → Execution (System / AI)
+
+---
+
+## 🛠️ Tech Stack
+
+- Python  
+- SpeechRecognition  
+- pyttsx3  
+- psutil  
+- pyautogui  
+- Ollama (LLM)  
+
+---
+
+## ▶️ How to Run
+
+```bash
+pip install -r requirements.txt
+python main.py
