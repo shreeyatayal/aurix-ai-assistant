@@ -1,0 +1,21 @@
+2026-02-18 21:54:47,061 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-02-18 21:54:47,062 - INFO - Using writeable comtypes cache directory: 'C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\comtypes\gen'
+2026-02-18 21:55:57,759 - INFO - User input received: hai aur ek start studying
+2026-02-18 21:56:12,165 - INFO - User input received: hey rx start study on
+2026-02-18 21:56:50,865 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-18 21:56:50,878 - INFO - AI response generated
+2026-02-18 21:57:16,610 - INFO - User input received: hey orix take a screenshot
+2026-02-18 21:57:17,057 - INFO - Screenshot taken: screenshot_215716.png
+2026-02-18 21:58:08,054 - INFO - User input received: exit
+2026-02-18 21:58:09,063 - INFO - AURIX terminated by user
+2026-02-18 22:16:20,476 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-02-18 22:16:20,477 - INFO - Using writeable comtypes cache directory: 'C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\comtypes\gen'
+2026-02-18 22:16:37,078 - INFO - User input: yah rx open chrome and play pal pal
+2026-02-18 22:16:37,151 - INFO - Application opened: chrome
+2026-02-18 22:17:20,430 - INFO - User input: forex take a screenshot
+2026-02-18 22:17:20,580 - INFO - Screenshot taken: screenshot_221720.png
+2026-02-18 22:18:00,674 - INFO - Voice not understood
+2026-02-18 22:18:11,434 - INFO - User input: play pal pal on spotify
+2026-02-18 22:18:34,897 - INFO - User input: forex play pal pal on spotify
+2026-02-18 22:19:36,211 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-18 22:19:36,222 - INFO - AI response generated
