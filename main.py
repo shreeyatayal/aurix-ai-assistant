@@ -43,10 +43,18 @@ engine.setProperty("rate", 175)
 
 def speak(text):
     try:
-        engine.stop()
+        print("DEBUG: Entered speak()")
+
         engine.say(text)
+
+        print("DEBUG: Before runAndWait()")
+
         engine.runAndWait()
+
+        print("DEBUG: Finished speaking")
+
     except Exception as e:
+        print("TTS ERROR:", e)
         log_event(f"TTS error: {str(e)}")
 
 # ================= VOICE INPUT =================
@@ -76,6 +84,12 @@ def clean_input(text):
 def wake_word_detected(text):
     cleaned = clean_input(text)
     return any(v in cleaned for v in WAKE_WORD_VARIANTS)
+
+# ================= CAPABILITY GUARD =================
+SYSTEM_ACTION_WORDS = ["play", "open", "launch", "shutdown", "restart", "close", "volume", "brightness", "spotify", "youtube"]
+
+def looks_like_system_command(text):
+    return any(word in text for word in SYSTEM_ACTION_WORDS)
 
 # ================= SAFE SYSTEM ACTIONS =================
 def open_app(app):
@@ -183,16 +197,22 @@ while True:
         response = get_cpu_usage()
 
     else:
-        try:
-            ai = ollama.chat(
-                model="llama3",
-                messages=[{"role": "user", "content": user_input}]
-            )
-            response = ai["message"]["content"]
-            log_event("AI response generated")
-        except Exception as e:
-            log_event(f"AI failure: {str(e)}")
-            response = "I'm having trouble connecting to my AI engine."
+        if looks_like_system_command(user_input):
+            response = "Sorry, I don't support that system action yet."
+            log_event("Capability Guard blocked unsupported command")
+        else:
+            try:
+                ai = ollama.chat(
+                    model="llama3",
+                    messages=[{"role": "user", "content": user_input}]
+                )
+                response = ai["message"]["content"]
+                print("DEBUG: AI response received")
+                log_event("AI response generated")
+            except Exception as e:
+                log_event(f"AI failure: {str(e)}")
+                response = "I'm having trouble connecting to my AI engine."
 
     print("AURIX:", response)
+    print("DEBUG: Speaking AI response")
     speak(response)

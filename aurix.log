@@ -22,3 +22,66 @@
 2026-04-05 20:11:51,516 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
 2026-04-05 20:11:51,517 - INFO - Using writeable comtypes cache directory: 'C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\comtypes\gen'
 2026-04-05 20:12:04,023 - INFO - User input: hey rx
+2026-07-10 19:41:03,010 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-10 19:41:03,011 - INFO - Using writeable comtypes cache directory: 'C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\comtypes\gen'
+2026-07-10 19:41:03,109 - INFO - Could not import comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4: Typelib different than module
+2026-07-10 19:41:03,112 - INFO - # Generating comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4
+2026-07-10 19:41:03,167 - INFO - # Generating comtypes.gen.SpeechLib
+2026-07-10 19:41:36,670 - INFO - User input: tumhen aur explain pal pal on spotify
+2026-07-10 19:41:44,896 - INFO - User input: hey aur
+2026-07-10 19:41:54,275 - INFO - User input: forex play pal pal on spotify
+2026-07-10 19:41:54,277 - INFO - Capability Guard blocked unsupported command
+2026-07-10 19:42:09,590 - INFO - User input: here it's tell me a joke
+2026-07-10 19:42:16,760 - INFO - User input: hey alexa tell me a joke
+2026-07-10 19:43:31,945 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-10 19:43:31,982 - INFO - AI response generated
+2026-07-10 19:44:30,704 - INFO - User input: lyrics tell me a joke
+2026-07-10 19:44:37,899 - INFO - User input: play rx tell me a joke
+2026-07-10 19:44:37,899 - INFO - Capability Guard blocked unsupported command
+2026-07-10 19:44:51,910 - INFO - User input: jrx tell me a joke
+2026-07-10 19:45:01,520 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-10 19:45:01,523 - INFO - AI response generated
+2026-07-10 19:45:31,014 - INFO - User input: rx what is artificial intelligence
+2026-07-10 19:47:55,850 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-10 19:47:55,934 - INFO - AI response generated
+2026-07-10 19:50:52,655 - INFO - User input: 6 orax tell me a joke
+2026-07-10 19:51:25,900 - INFO - User input: aur x tell me a joke
+2026-07-10 19:51:35,853 - INFO - User input: forex tell me a joke
+2026-07-10 19:51:46,098 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-10 19:51:46,103 - INFO - AI response generated
+2026-07-10 19:54:26,877 - INFO - User input: hey alexa tell me a joke
+2026-07-10 19:54:34,848 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-10 19:54:34,853 - INFO - AI response generated
+2026-07-10 19:54:53,531 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-10 19:54:53,532 - INFO - Using writeable comtypes cache directory: 'C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\comtypes\gen'
+2026-07-10 19:55:03,306 - INFO - User input: orix tell me a joke
+2026-07-10 19:55:11,129 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-10 19:55:11,131 - INFO - AI response generated
+2026-07-10 19:55:38,661 - INFO - User input: trx battery
+2026-07-10 19:55:38,662 - INFO - Battery checked
+2026-07-10 19:56:09,055 - INFO - User input: hey olx battery
+2026-07-10 19:56:16,854 - INFO - User input: a rx battery
+2026-07-10 19:56:16,855 - INFO - Battery checked
+2026-07-10 19:57:07,643 - INFO - User input: hero x battery
+2026-07-10 19:59:52,214 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-10 19:59:52,214 - INFO - Using writeable comtypes cache directory: 'C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\comtypes\gen'
+2026-07-10 19:59:59,265 - INFO - User input: hey orx battery
+2026-07-10 19:59:59,266 - INFO - Battery checked
+2026-07-10 20:00:08,235 - INFO - User input: hey rh cpu
+2026-07-10 20:00:16,163 - INFO - User input: yah rx cpu
+2026-07-10 20:00:17,164 - INFO - CPU usage checked
+2026-07-10 20:00:28,245 - INFO - User input: hey rx cpu
+2026-07-10 20:00:29,247 - INFO - CPU usage checked
+2026-07-10 20:00:40,475 - INFO - User input: arix tell me a joke
+2026-07-10 20:00:49,747 - INFO - User input: hey rx tell me a joke
+2026-07-10 20:01:16,509 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-10 20:01:16,530 - INFO - AI response generated
+2026-07-10 20:05:06,294 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-10 20:05:06,294 - INFO - Using writeable comtypes cache directory: 'C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\comtypes\gen'
+2026-07-10 20:05:13,843 - INFO - User input: hero x battery
+2026-07-10 20:05:21,355 - INFO - User input: rx battery
+2026-07-10 20:05:21,356 - INFO - Battery checked
+2026-07-10 20:05:37,903 - INFO - User input: a rx cpu
+2026-07-10 20:05:38,916 - INFO - CPU usage checked
+2026-07-10 20:05:49,897 - INFO - User input: hey rx cpu
+2026-07-10 20:05:50,899 - INFO - CPU usage checked
