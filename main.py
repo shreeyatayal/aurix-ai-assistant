@@ -123,6 +123,48 @@ def take_screenshot():
     except Exception as e:
         log_event(f"Screenshot error: {str(e)}")
         return "I couldn't take a screenshot."
+    
+# ================= MEMORY =================
+
+def save_profile(key, value):
+
+    try:
+
+        with open("profile.txt", "a") as file:
+            file.write(f"{key}={value}\n")
+
+        log_event(f"Profile updated: {key}")
+        return "Profile updated."
+
+    except Exception as e:
+        log_event(f"Profile error: {str(e)}")
+        return "I couldn't update your profile."
+
+def save_note(note):
+    try:
+        with open("notes.txt", "a") as file:
+            file.write(note + "\n")
+
+        log_event(f"Memory saved: {note}")
+        return "I will remember that."
+
+    except Exception as e:
+        log_event(f"Memory error: {str(e)}")
+        return "I couldn't save that memory."
+
+
+def show_notes():
+    try:
+        with open("notes.txt", "r") as file:
+            notes = file.readlines()
+
+        if notes:
+            return "".join(notes)
+
+        return "I don't have any memories yet."
+
+    except:
+        return "I don't have any memories yet."    
 
 # ================= SYSTEM INFO =================
 def get_battery_status():
@@ -146,7 +188,7 @@ def get_cpu_usage():
         return "I couldn't check CPU usage."
 
 # ================= MAIN LOOP =================
-print("AURIX running — Stage 6 Part 2: Graceful Recovery\n")
+print("AURIX running\n")
 
 while True:
     thoughts = []
@@ -195,6 +237,30 @@ while True:
 
     elif "cpu" in user_input:
         response = get_cpu_usage()
+
+    elif "remember" in user_input:
+        memory = user_input.replace("remember", "").strip()
+        words = memory.split()
+
+        if words and words[0] in WAKE_WORD_VARIANTS:
+            words = words[1:]
+
+        memory = " ".join(words)
+
+        if "my name is" in memory:
+            name = memory.replace("my name is", "").strip()
+            response = save_profile("name", name)
+        elif "my favourite colour is" in memory:
+            color = memory.replace("my favourite colour is", "").strip()
+            response = save_profile("favorite_color", color)
+        else:
+            response = save_note(memory)
+
+    elif "notes" in user_input:
+        response = show_notes()
+
+    elif "save test profile" in user_input:
+        response = save_profile("name", "shreeya")
 
     else:
         if looks_like_system_command(user_input):

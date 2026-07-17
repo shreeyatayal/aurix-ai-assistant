@@ -85,3 +85,73 @@
 2026-07-10 20:05:38,916 - INFO - CPU usage checked
 2026-07-10 20:05:49,897 - INFO - User input: hey rx cpu
 2026-07-10 20:05:50,899 - INFO - CPU usage checked
+2026-07-15 20:17:31,764 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-15 20:17:31,765 - INFO - Using writeable comtypes cache directory: 'C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\comtypes\gen'
+2026-07-15 20:18:29,912 - INFO - User input: forex remembered that my favourite colour is black and white
+2026-07-15 20:18:29,914 - INFO - Memory saved: forex ed that my favourite colour is black and white
+2026-07-15 20:18:48,430 - INFO - User input: forex show my notes
+2026-07-15 20:20:33,087 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 500 Internal Server Error"
+2026-07-15 20:20:33,124 - INFO - AI failure: llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application.: CUDA error: shared object initialization failed
+CUDA error (status code: 500)
+2026-07-15 20:21:16,772 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-15 20:21:16,773 - INFO - Using writeable comtypes cache directory: 'C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\comtypes\gen'
+2026-07-15 20:21:31,991 - INFO - User input: forest remember i am learning
+2026-07-15 20:21:57,698 - INFO - User input: aur isase member i love to eat mag
+2026-07-15 20:22:10,200 - INFO - User input: forex remember i am learning python
+2026-07-15 20:22:10,202 - INFO - Memory saved: forex  i am learning python
+2026-07-15 20:22:45,667 - INFO - User input: aur ek show notes
+2026-07-15 20:22:52,780 - INFO - User input: forex show notes
+2026-07-15 20:23:55,977 - INFO - User input: aurix remember my name is shreeya
+2026-07-15 20:23:55,978 - INFO - Memory saved: aurix  my name is shreeya
+2026-07-15 20:30:31,643 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-15 20:30:31,643 - INFO - Using writeable comtypes cache directory: 'C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\comtypes\gen'
+2026-07-15 20:31:10,482 - INFO - User input: forex remember i am working on two projects right now first
+2026-07-15 20:31:10,483 - INFO - Memory saved: f  i am working on two projects right now first
+2026-07-15 20:31:54,618 - INFO - User input: ericsson
+2026-07-15 20:32:05,679 - INFO - User input: forex show my notes
+2026-07-15 20:33:55,959 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-15 20:33:55,960 - INFO - Using writeable comtypes cache directory: 'C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\comtypes\gen'
+2026-07-15 20:34:06,917 - INFO - User input: forex show my
+2026-07-15 20:34:56,559 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-15 20:34:56,559 - INFO - Using writeable comtypes cache directory: 'C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\comtypes\gen'
+2026-07-15 20:35:25,983 - INFO - User input: aurix show my notes
+2026-07-15 20:35:41,212 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-15 20:35:41,215 - INFO - AI response generated
+2026-07-15 20:36:35,240 - INFO - User input: aurix show my notes
+2026-07-15 20:36:55,523 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-07-15 20:36:55,527 - INFO - AI response generated
+2026-07-15 20:37:13,523 - INFO - User input: aurix show notes
+2026-07-15 22:17:13,821 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-15 22:17:13,821 - INFO - Using writeable comtypes cache directory: 'C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\comtypes\gen'
+2026-07-15 22:17:23,626 - INFO - User input: forex remember i love coding
+2026-07-15 22:17:23,627 - INFO - Memory saved: f  i love coding
+2026-07-15 22:17:33,970 - INFO - User input: forex show my notes
+2026-07-15 22:18:59,955 - INFO - User input: sorry show my notes
+2026-07-15 22:19:14,567 - INFO - User input: rx show my notes
+2026-07-15 22:28:17,843 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-15 22:28:17,843 - INFO - Using writeable comtypes cache directory: 'C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\comtypes\gen'
+2026-07-15 22:28:26,418 - INFO - User input: orix remember my name is shreya
+2026-07-15 22:28:26,419 - INFO - Memory saved: orix  my name is shreya
+2026-07-15 22:28:48,675 - INFO - User input: orix remember my favourite colour is black and
+2026-07-15 22:28:48,676 - INFO - Memory saved: orix  my favourite colour is black and
+2026-07-15 22:29:00,640 - INFO - User input: aur ek show my notes
+2026-07-15 22:29:18,576 - INFO - User input: aur ek aur
+2026-07-15 22:29:31,240 - INFO - User input: forex show my notes and my name is riya
+2026-07-15 22:33:49,428 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-15 22:33:49,428 - INFO - Using writeable comtypes cache directory: 'C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\comtypes\gen'
+2026-07-15 22:34:10,978 - INFO - User input: aurix remember my name is shreeya
+2026-07-15 22:34:10,980 - INFO - Memory saved: my name is shreeya
+2026-07-15 22:34:29,460 - INFO - User input: orix remember my favourite colour is black and white
+2026-07-15 22:34:29,461 - INFO - Memory saved: my favourite colour is black and white
+2026-07-15 22:34:43,441 - INFO - User input: aur ek show my notes
+2026-07-15 22:34:51,546 - INFO - User input: rx shock my notes
+2026-07-15 23:05:39,487 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-15 23:05:39,487 - INFO - Using writeable comtypes cache directory: 'C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\comtypes\gen'
+2026-07-15 23:06:00,273 - INFO - User input: rx save test profile
+2026-07-15 23:06:00,274 - INFO - Profile updated: name
+2026-07-15 23:16:51,650 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-15 23:16:51,650 - INFO - Using writeable comtypes cache directory: 'C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\comtypes\gen'
+2026-07-15 23:17:09,253 - INFO - User input: rx remember my name is shreeya
+2026-07-15 23:17:09,254 - INFO - Profile updated: name
+2026-07-15 23:17:30,321 - INFO - User input: rx remember my favourite colour is black and white
+2026-07-15 23:17:30,322 - INFO - Profile updated: favorite_color

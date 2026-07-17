@@ -1,0 +1,2 @@
+name=shreeya
+favorite_color=black and white
