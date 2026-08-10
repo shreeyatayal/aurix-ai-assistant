@@ -1,13 +1,14 @@
 import ollama
 import datetime
 import speech_recognition as sr
-import pyttsx3
 import platform
 import psutil
 import os
 import subprocess
 import pyautogui
 import logging
+
+from voice.tts import speak
 
 # ================= CONFIG =================
 DEBUG_MODE = True
@@ -36,26 +37,6 @@ conversation = [
 # ================= WAKE WORD =================
 WAKE_WORD_VARIANTS = ["aurix", "orix", "orex", "rx", "alex", "erix", "forex"]
 FILLER_WORDS = ["hey", "hi", "hello", "play", "please"]
-
-# ================= SPEECH =================
-engine = pyttsx3.init("sapi5")
-engine.setProperty("rate", 175)
-
-def speak(text):
-    try:
-        print("DEBUG: Entered speak()")
-
-        engine.say(text)
-
-        print("DEBUG: Before runAndWait()")
-
-        engine.runAndWait()
-
-        print("DEBUG: Finished speaking")
-
-    except Exception as e:
-        print("TTS ERROR:", e)
-        log_event(f"TTS error: {str(e)}")
 
 # ================= VOICE INPUT =================
 def listen_voice():
